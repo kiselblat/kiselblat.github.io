@@ -11,8 +11,8 @@ header {
     margin: 0;
     padding: 0;
     text-align: center;
-    height: 50px;
-    border-bottom: 8px solid #cccccc;
+    height: 80px;
+    border-bottom: 4px solid #cccccc;
 }
 
 .header-bar {
@@ -39,10 +39,10 @@ nav {
 #my-name {
     float: left;
     background-color: #4aaaa5;
-    padding: 12px;
+    padding: 25px;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -57,13 +57,13 @@ footer {
 section {
     background-color: #ffffff;
     width: 900px;
-    /* using viewport units I don't quite get yet */
     min-height: calc(100vh - 70px);
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 2px solid #cccccc;
 }
 
 #profile-pic {
@@ -105,18 +105,30 @@ section {
 
 /* forms */
 
-input[text], input[email] {
+input[type=text], input[type=email] {
     width: 100%;
-    margin: 8px;
+    /* margin: 8px; */
 }
 
-input[submit] {
+input[type=submit] {
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+    font-size: 20px;
+    color: #ffffff;
     background-color: #4aaaa5;
+    text-shadow: none;
+    border: 2px solid #cccccc;
+    box-shadow: none;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
 }
 
 textarea {
     width: 100%;
-    margin: 8px;
+    /* margin: 8px; */
 }
 
 /* links and link classes */
