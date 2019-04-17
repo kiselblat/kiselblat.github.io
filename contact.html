@@ -1,33 +1,58 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="h-100">
 
 <head>
+    <title>Contact Tom Christ</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tom Christ">
-    
-    <title>Contact Tom Christ</title>
-    
+    <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
-    <header>
-    <div class="header-bar">
-    <a href="index.html" id="my-name">Tom Christ</a>
-    <nav>
-        <a href="index.html">About</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+<body class="d-flex flex-column h-100">
+
+<header>
+    <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md">
+        <a id="name-tag" href="index.html">Tom Christ</a>
     </div>
-    </header>
-            
-    <section>
-        <h1>Contact</h1>
-        <hr>
-        <form action="#">
+    <div class="col-md">
+        <nav class="nav justify-content-center">
+        <ul class="nav">
+            <li class="list-item">
+            <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="list-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="list-item">
+            <a class="nav-link disabled" href="#">Contact</a>
+            </li>
+        </ul>
+        </nav>    
+    </div>
+    <div class="col-md-2"></div>
+    </div>
+</header>
+
+<main role="main" class="flex-shrink-0">
+    <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <section>
+        <!-- heading -->
+        <div class="row">
+        <div class="col-md">
+            <h1>Contact</h1>
+        </div>
+        </div>
+        <!-- content -->
+        <div class="row">
+        <div class="col-md">
+            <form action="#">
             Name<br>
             <input type="text" name="full-name"><br>
             Email<br>
@@ -35,13 +60,24 @@
             Message<br>
             <textarea name="message" rows="15"></textarea>
             <input type="submit" value="Submit" name="submit-button">
-        </form>
-    </section> 
-    
-    <footer>
-        <p>Copyright &copy;</p>
-    </footer>
+            </form>
+        </div>
+        </div>
+        </section>  
+    </div>
+    <div class="col-md-2"></div>
+    </div>
+</main>
 
+<footer class="footer mt-auto py-3">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <p class="text-center text-muted">Copyright &copy;</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</footer>
 </body>
 
 </html>
