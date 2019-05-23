@@ -1,15 +1,15 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777777;
-    background-image: url("../images/concrete_seamless.png");
+    color: #555555;
+    background-image: url("../images/knitting250px_@2X.png");
 }
 
 /* header and navbar */
 
 header {
-    background-color: #ffffff;
+    background-color: #8aaae5;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid #ffffff;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
     line-height: 2em;
     font-family: Georgia, Times, "Times New Roman", serif;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #8aaae5;
     text-align: center;
     text-decoration: none;
 }
@@ -39,16 +39,16 @@ nav {
 /* footer */
 
 footer {
-    color: #cccccc;
-    background: #666666;
-    border-top: 8px solid #4aaaa5; 
+    color: #ffffff;
+    background: #8aaae5;
+    border-top: 8px solid #ffffff; 
 }
 
 h1 {
     font-size: 2em;
     font-weight: bold;
     line-height: 1.5em;
-    color: #4aaaa5;
+    color: #8aaae5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
     border-bottom: 1px solid #cccccc;
@@ -89,7 +89,7 @@ article {
     font-weight: normal;
     text-align: center;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #8aaae5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     z-index: 2;
 }
@@ -110,7 +110,7 @@ input[type=submit] {
     margin-top: 1em;
     font-size: 1.5em;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #8aaae5;
     text-shadow: none;
     border: 1px solid #cccccc;
     box-shadow: none;
@@ -130,7 +130,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #8aaae5;
 }
 
 @media screen and (max-width: 832px) {
