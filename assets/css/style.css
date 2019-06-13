@@ -71,6 +71,7 @@ article {
     position: relative;
     display: inline-block;
     margin-bottom: 2em;
+    width: 280px;
 }
 
 .portfolio-pic {
@@ -130,7 +131,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #8aaae5;
+    color: #555555;
 }
 
 @media screen and (max-width: 832px) {
