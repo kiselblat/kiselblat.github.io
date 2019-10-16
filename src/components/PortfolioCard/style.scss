@@ -1,0 +1,22 @@
+.portfolio-card {
+  background: #fff;
+  border-radius: 2px;
+  height: 25em;
+  margin: 1em;
+  position: relative;
+  width: 20em;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  // flex: 1;
+}
+
+.card > .picture-frame {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background:#6CADDC;
+}
+
+.card > .picture-frame > img {
+  width: 65%
+}
