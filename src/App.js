@@ -10,7 +10,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.scss';
 
 class App extends Component {
