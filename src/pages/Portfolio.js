@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import { Layout } from '../components/Layout';
 import PortfolioCard from '../components/PortfolioCard'
 import CardLayout from '../components/CardLayout'
@@ -17,21 +18,33 @@ class Portfolio extends Component {
   render() {
     return(
       <Layout>
-        <h2>Portfolio</h2>
-        <p>These are the sorts of things I can do.</p>
-        <CardLayout>
+        <Row>
+          <Col>
+            <h2 className="text-success">Portfolio</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="lead text-light">These are the sorts of things I can do.</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <CardLayout>
 
-          {this.state.projects.map(card => (
-            <PortfolioCard
-              name={card.name}
-              description={card.description}
-              image={card.image}
-              repoLink={card.repoLink}
-              appLink={card.appLink}
-            />
-          ))}
+              {this.state.projects.map(card => (
+                <PortfolioCard
+                  name={card.name}
+                  description={card.description}
+                  image={card.image}
+                  repoLink={card.repoLink}
+                  appLink={card.appLink}
+                />
+              ))}
 
-        </CardLayout>
+            </CardLayout>
+          </Col>
+        </Row>
       </Layout>
     )
   }
