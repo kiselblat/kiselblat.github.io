@@ -5,13 +5,25 @@ import './style.scss';
 export const PortfolioCard = props => {
   return(
     <Card className="portfolio-card">
+      <Card.Img variant="top" src={props.image} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle>The subtitle for the card</Card.Subtitle>
+        <Card.Title>{props.name}</Card.Title>
         <Card.Text>
-          This is where the description goes. What a nice little container for all kinds of long, longer, and longest text.
+          {props.description}
         </Card.Text>
       </Card.Body>
+      <Card.Footer>
+        {props.repoLink ? 
+        <Card.Link href={props.repoLink}>See the Code</Card.Link>
+        :
+        <Card.Link />
+        }
+        {props.appLink ? 
+        <Card.Link href={props.appLink}>Try the App</Card.Link>
+        :
+        <Card.Link />
+        }
+      </Card.Footer>
     </Card>
   )
 }
