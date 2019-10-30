@@ -36,6 +36,7 @@ class Portfolio extends Component {
                 <PortfolioCard
                   name={card.name}
                   description={card.description}
+                  techs={card.techs}
                   image={card.image}
                   repoLink={card.repoLink}
                   appLink={card.appLink}
