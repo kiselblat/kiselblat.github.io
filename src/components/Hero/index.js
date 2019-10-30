@@ -4,7 +4,7 @@ import './style.scss';
 
 export const Hero = props => {
   return(
-    <Jumbotron fluid>
+    <Jumbotron fluid className="bg-dark text-info my-0">
       <Container>
         <h1>Tom Christ</h1>
         <p>Full Stack Developer</p>

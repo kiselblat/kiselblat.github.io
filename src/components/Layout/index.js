@@ -4,7 +4,7 @@ import './style.scss';
 
 export const Layout = props => {
   return(
-    <Container>
+    <Container className="my-4">
       {props.children}
     </Container>
   )
