@@ -1,29 +1,38 @@
 import React, { Component } from 'react';
+import { Layout } from '../components/Layout';
 import PortfolioCard from '../components/PortfolioCard'
 import CardLayout from '../components/CardLayout'
+import * as projects from '../projects.json';
+
 
 class Portfolio extends Component {
+  constructor() {
+    super();
+    this.state = {
+      projects: projects.entries
+    };
+    console.log(this.state);
+  }
+
   render() {
     return(
-      <div>
+      <Layout>
         <h2>Portfolio</h2>
-        <p>Tom Christ is a Minneapolis based full stack web developer. If he had a hammer, he'd do this with nails but luckily he has react.</p>
+        <p>These are the sorts of things I can do.</p>
         <CardLayout>
 
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
-        <PortfolioCard/>
+          {this.state.projects.map(card => (
+            <PortfolioCard
+              name={card.name}
+              description={card.description}
+              image={card.image}
+              repoLink={card.repoLink}
+              appLink={card.appLink}
+            />
+          ))}
 
         </CardLayout>
-      </div>
+      </Layout>
     )
   }
 }
