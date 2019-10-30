@@ -1,3 +1,19 @@
+$saffron: #eac435;
+$dark-puce: #433a3f;
+$deep-space-sparkle: #3d5a6c;
+$persian-green: #00a6a6;
+$trolley-grey: #808080;
+$platinum: #e7e7e7;
+
+$theme-colors: (
+  "primary": $deep-space-sparkle,
+  "secondary": $trolley-grey,
+  "info": $saffron,
+  "success": $persian-green,
+  "light": $platinum,
+  "dark": $dark-puce,
+);
+
 @import '~bootstrap/scss/bootstrap.scss';
 
 body {
@@ -7,6 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $deep-space-sparkle;
 }
 
 code {
