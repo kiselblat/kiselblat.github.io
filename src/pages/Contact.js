@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Layout } from '../components/Layout';
 
 class Contact extends Component {
   render() {
     return(
-      <div>
+      <Layout>
         <h2>Contact</h2>
         <p>Tom Christ is a Minneapolis based full stack web developer. If he had a hammer, he'd do this with nails but luckily he has react.</p>
-      </div>
+      </Layout>
     )
   }
 }

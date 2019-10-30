@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Layout } from '../components/Layout';
 
 class NoMatch extends Component {
   render() {
     return(
-      <div>
+      <Layout>
         <h1>Whoops!</h1>
         <p>Page not found!</p>
-      </div>
+      </Layout>
     )
   }
 }
