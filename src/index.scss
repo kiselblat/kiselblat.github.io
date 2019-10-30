@@ -14,6 +14,10 @@ $theme-colors: (
   "dark": $dark-puce,
 );
 
+$sizes: (
+  30: 30%,
+);
+
 @import '~bootstrap/scss/bootstrap.scss';
 
 body {
@@ -30,3 +34,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
