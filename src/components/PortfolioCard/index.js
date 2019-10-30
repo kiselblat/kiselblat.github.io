@@ -4,10 +4,11 @@ import './style.scss';
 
 export const PortfolioCard = props => {
   return(
-    <Card className="portfolio-card">
+    <Card className="w-30 mb-4 bg-success text-light">
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
         <Card.Title>{props.name}</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">{props.techs}</Card.Subtitle>
         <Card.Text>
           {props.description}
         </Card.Text>
