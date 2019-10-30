@@ -1,0 +1,23 @@
+{"entries": [
+  {
+    "name": "Word Guess",
+    "description": "Match wits against the Singularity in the ruthless crucible of Hangman-style word guessing.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Xmatrix.png",
+    "repoLink": "https://github.com/kiselblat/Word-Guess",
+    "appLink": "https://kiselblat.github.io/Word-Guess/"
+  },
+  {
+    "name": "LIRI",
+    "description": "The knowledge of the internet at your fingertips. Kind of.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Command_line.png",
+    "repoLink": "https://github.com/kiselblat/liri-node-app",
+    "appLink": ""
+  },
+  {
+    "name": "Eat Da Burger",
+    "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/NCI_Visuals_Food_Hamburger.jpg",
+    "repoLink": "https://github.com/kiselblat/burger",
+    "appLink": "https://burgerific.herokuapp.com/"
+  }
+]}
