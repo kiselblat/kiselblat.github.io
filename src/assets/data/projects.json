@@ -28,12 +28,12 @@
   },
   {
     "key": 4,
-    "name": "Eat Da Burger",
-    "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
-    "techs": "MySQL, Node.js with Express, Handlebars",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/NCI_Visuals_Food_Hamburger.jpg",
-    "repoLink": "https://github.com/kiselblat/burger",
-    "appLink": "https://burgerific.herokuapp.com/"
+    "name": "Kobushi",
+    "description": "Looking for your next anime series? Let Kobushi lead the way.",
+    "techs": "jQuery, jQueryUI, Firebase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Momotaro%27s_Divine_Sea_Warriors-screeny.JPG",
+    "repoLink": "https://github.com/kiselblat/Kobushi",
+    "appLink": "https://kiselblat.github.io/Kobushi/"
   },
   {
     "key": 5,
