@@ -9,3 +9,11 @@ export const Layout = props => {
     </Container>
   )
 }
+
+export const CardLayout = props => {
+  return(
+    <Container className={`${props.className} card-layout`}>
+      {props.children}
+    </Container>
+  )
+}

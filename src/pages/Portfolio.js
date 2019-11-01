@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { Layout } from '../components/Layout';
+import { Layout, CardLayout } from '../components/Layout';
 import PortfolioCard from '../components/PortfolioCard'
-import CardLayout from '../components/CardLayout'
+// import CardLayout from '../components/CardLayout'
 import * as projects from '../projects.json';
 
 
