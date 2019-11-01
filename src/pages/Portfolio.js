@@ -20,7 +20,7 @@ class Portfolio extends Component {
       <Layout>
         <Row>
           <Col>
-            <h2 className="text-success">Portfolio</h2>
+            <h2 className="text-success display-4"><strong>Portfolio</strong></h2>
           </Col>
         </Row>
         <Row>
@@ -34,6 +34,7 @@ class Portfolio extends Component {
 
               {this.state.projects.map(card => (
                 <PortfolioCard
+                  key={card.key}
                   name={card.name}
                   description={card.description}
                   techs={card.techs}

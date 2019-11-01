@@ -8,7 +8,7 @@ class Contact extends Component {
       <Layout>
         <Row>
           <Col>
-            <h2 className="text-success">Contact</h2>
+            <h2 className="text-info">Contact</h2>
           </Col>
         </Row>
         <Row>

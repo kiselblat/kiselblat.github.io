@@ -8,7 +8,7 @@ class About extends Component {
       <Layout>
         <Row>
           <Col>
-            <h2 className="text-success">About</h2>
+            <h2 className="text-info">About</h2>
           </Col>
         </Row>
         <Row>

@@ -8,7 +8,7 @@ class NoMatch extends Component {
       <Layout>
         <Row>
           <Col>
-            <h2 className="text-success">Whoops!</h2>
+            <h2 className="text-info">Whoops!</h2>
           </Col>
         </Row>
         <Row>
