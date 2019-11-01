@@ -1,4 +1,5 @@
 import { Blurb } from './Blurb';
+import { ContactMe } from './ContactMe';
 import { Header } from './Header';
 import { Hero } from './Hero';
 import { Layout, CardLayout } from './Layout';
@@ -11,6 +12,7 @@ import { Title } from './Title';
 export {
   Blurb,
   CardLayout,
+  ContactMe,
   Header,
   Hero,
   Layout,
