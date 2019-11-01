@@ -1,0 +1,11 @@
+.title {
+  h2 {
+    @extend .display-4;
+    @extend .text-success;
+  }
+
+  p {
+    @extend .lead;
+    @extend .text-light;
+  }
+}
