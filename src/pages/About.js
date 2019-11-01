@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Blurb, Skillset, Title } from '../components';
 
-import * as bio from '../bio.json';
+import * as bio from '../assets/data/bio.json';
 
 class About extends Component {
   render() {

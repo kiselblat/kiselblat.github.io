@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { CardLayout, PortfolioCard, Title } from '../components';
 
-import * as projects from '../projects.json';
+import * as projects from '../assets/data/projects.json';
 
 
 class Portfolio extends Component {

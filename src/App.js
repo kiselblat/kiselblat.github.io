@@ -10,7 +10,7 @@ import NoMatch from './pages/NoMatch';
 
 // import logo from './logo.svg';
 
-import * as bio from './bio.json';
+import * as name from './assets/data/name.json';
 
 class App extends Component {
   constructor() {
@@ -35,10 +35,10 @@ class App extends Component {
       <Router>
         <Header
           currentScrollHeight={this.state.currentScrollHeight}
-          subtitle={bio.title}
-          brand={bio.brand}
+          subtitle={name.title}
+          brand={name.initials}
         >
-          {bio.name}
+          {name.name}
         </Header>
         <Switch>
           <Route exact path="/" component={ About } />
