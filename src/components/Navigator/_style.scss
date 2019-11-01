@@ -1,0 +1,8 @@
+.navigator {
+  @extend .text-light;
+  @extend .border-bottom;
+
+  .brand {
+    @extend .text-info;
+  }
+}

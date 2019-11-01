@@ -1,0 +1,16 @@
+.portfolio-card {
+  @extend .w-30;
+  @extend .mb-4;
+  @extend .bg-light;
+  @extend .text-dark;
+  @extend .border-light;
+
+  .card-title {
+    @extend .text-info;
+  }
+
+  .card-subtitle {
+    @extend .mb-2;
+    @extend .text-success;
+  }
+}

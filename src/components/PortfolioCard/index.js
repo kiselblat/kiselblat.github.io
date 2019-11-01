@@ -1,14 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './style.scss';
 
 export const PortfolioCard = props => {
   return(
-    <Card className="w-30 mb-4 bg-light text-dark border-light">
+    <Card className="portfolio-card">
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
-        <Card.Title className="text-info">{props.name}</Card.Title>
-        <Card.Subtitle className="mb-2 text-success">{props.techs}</Card.Subtitle>
+        <Card.Title className="card-title">{props.name}</Card.Title>
+        <Card.Subtitle className="card-subtitle">{props.techs}</Card.Subtitle>
         <Card.Text>
           {props.description}
         </Card.Text>

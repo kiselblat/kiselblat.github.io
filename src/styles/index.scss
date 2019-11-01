@@ -1,0 +1,16 @@
+// Bootstrap maps must happen before it's imported
+@import './maps';
+
+// External frameworks
+@import '~bootstrap/scss/bootstrap.scss';
+// @import '~animate.css/animate.min.css';
+
+// Component styles
+@import '../components/Hero/style';
+@import '../components/Layout/style';
+@import '../components/Nameplate/style';
+@import '../components/Navigator/style';
+@import '../components/PortfolioCard/style';
+
+// App wide custom scss
+@import './custom';
