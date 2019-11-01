@@ -4,10 +4,8 @@ import './style.scss';
 
 export const Layout = props => {
   return(
-    <Container className="my-4">
+    <Container className={`${props.className} layout`} style={props.style}>
       {props.children}
     </Container>
   )
 }
-
-export default Layout;
