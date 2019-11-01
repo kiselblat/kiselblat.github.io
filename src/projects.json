@@ -1,5 +1,6 @@
 {"entries": [
   {
+    "key": 1,
     "name": "Word Guess",
     "description": "Match wits against the Singularity in the ruthless crucible of Hangman-style word guessing.",
     "techs": "JavaScript, Node.js, jQuery",
@@ -8,6 +9,7 @@
     "appLink": "https://kiselblat.github.io/Word-Guess/"
   },
   {
+    "key": 2,
     "name": "LIRI",
     "description": "The knowledge of the internet at your fingertips. Kind of.",
     "techs": "Node.js CLI, Axios",
@@ -16,6 +18,34 @@
     "appLink": ""
   },
   {
+    "key": 3,
+    "name": "Eat Da Burger",
+    "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
+    "techs": "MySQL, Node.js with Express, Handlebars",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/NCI_Visuals_Food_Hamburger.jpg",
+    "repoLink": "https://github.com/kiselblat/burger",
+    "appLink": "https://burgerific.herokuapp.com/"
+  },
+  {
+    "key": 4,
+    "name": "Eat Da Burger",
+    "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
+    "techs": "MySQL, Node.js with Express, Handlebars",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/NCI_Visuals_Food_Hamburger.jpg",
+    "repoLink": "https://github.com/kiselblat/burger",
+    "appLink": "https://burgerific.herokuapp.com/"
+  },
+  {
+    "key": 5,
+    "name": "Eat Da Burger",
+    "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
+    "techs": "MySQL, Node.js with Express, Handlebars",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/NCI_Visuals_Food_Hamburger.jpg",
+    "repoLink": "https://github.com/kiselblat/burger",
+    "appLink": "https://burgerific.herokuapp.com/"
+  },
+  {
+    "key": 6,
     "name": "Eat Da Burger",
     "description": "Eating burgers is hard work, let this app do the work of remembering what you ate for you.",
     "techs": "MySQL, Node.js with Express, Handlebars",
