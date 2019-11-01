@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Hero } from './components/Hero';
-import { Navigator } from './components/Navigator';
+import { Header } from './components/Header';
 
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -34,19 +33,19 @@ class App extends Component {
   render() {
     return(
       <Router>
-        <Hero
+        <Header
           currentScrollHeight={this.state.currentScrollHeight}
-          subtitle="Full-Stack Web Developer"
+          subtitle="Full Stack Web Developer"
+          brand="TSEC"
         >
-        Tom Christ
-        </Hero>
-        <Navigator currentScrollHeight={this.state.currentScrollHeight} />
-          <Switch>
-            <Route exact path="/" component={ About } />
-            <Route path="/portfolio" component={ Portfolio } />
-            <Route path="/contact" component={ Contact } />
-            <Route component={ NoMatch } />
-          </Switch>
+          Tom Christ
+        </Header>
+        <Switch>
+          <Route exact path="/" component={ About } />
+          <Route path="/portfolio" component={ Portfolio } />
+          <Route path="/contact" component={ Contact } />
+          <Route component={ NoMatch } />
+        </Switch>
       </Router>
     );
   }

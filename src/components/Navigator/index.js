@@ -8,7 +8,7 @@ export const Navigator = props => {
     <Navbar expand="md" sticky="top" bg="dark" variant="dark" className="text-light border-bottom">
     <Layout>
       <Navbar.Brand className="text-info" style={{ opacity }} href="/">
-        TSEC
+        {props.brand}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
