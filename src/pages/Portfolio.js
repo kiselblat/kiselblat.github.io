@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Layout, CardLayout } from '../components/Layout';
+import { CardLayout } from '../components/Layout';
 import { Title } from '../components/Title';
-import PortfolioCard from '../components/PortfolioCard'
+import { PortfolioCard } from '../components/PortfolioCard'
 
 import * as projects from '../projects.json';
 
@@ -17,7 +17,7 @@ class Portfolio extends Component {
 
   render() {
     return(
-      <Layout>
+      <>
         <Title subtitle="Some Things I've Made">Portfolio</Title>
         <CardLayout>
           {this.state.projects.map(card => (
@@ -32,7 +32,7 @@ class Portfolio extends Component {
             />
           ))}
         </CardLayout>
-      </Layout>
+      </>
     )
   }
 }
