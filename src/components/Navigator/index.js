@@ -1,11 +1,17 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Layout } from '../Layout'
 
-export const Navigator = () => (
-  <Navbar expand="md" sticky="top" bg="dark" variant="dark" className="text-light">
-      <Navbar.Brand href="/"></Navbar.Brand>
+export const Navigator = props => {
+  const opacity = Math.min(props.currentScrollHeight / 250 , 1)
+  return(
+    <Navbar expand="md" sticky="top" bg="dark" variant="dark" className="text-light border-bottom">
+    <Layout>
+      <Navbar.Brand className="text-info" style={{ opacity }} href="/">
+        TSEC
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link href="/">About</Nav.Link>
@@ -18,5 +24,8 @@ export const Navigator = () => (
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
+
+    </Layout>
     </Navbar>
-)
+  )   
+}
