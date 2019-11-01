@@ -1,0 +1,6 @@
+.blurb {
+  p {
+    @extend .lead;
+    @extend .text-secondary;
+  }
+}
