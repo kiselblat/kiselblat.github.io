@@ -5,13 +5,20 @@ $persian-green: #00a6a6;
 $trolley-grey: #808080;
 $platinum: #e7e7e7;
 
+$light-red-ochre: #e87f4d;
+$hunter-green: #3a5e48;
+$dark-slate-grey: #2f4a57;
+$ucla-blue: #4f788d;
+$pewter-blue: #7ba6b4;
+$pastel-blue: #a5bfc5;
+
 $theme-colors: (
-  "primary": $deep-space-sparkle,
+  "primary": $ucla-blue,
   "secondary": $trolley-grey,
-  "info": $saffron,
-  "success": $persian-green,
-  "light": $platinum,
-  "dark": $dark-puce,
+  "info": $light-red-ochre,
+  "success": $hunter-green,
+  "light": $pewter-blue,
+  "dark": $dark-slate-grey,
 );
 
 $sizes: (
@@ -19,6 +26,7 @@ $sizes: (
 );
 
 @import '~bootstrap/scss/bootstrap.scss';
+// @import '~animate.css/animate.min.css';
 
 body {
   margin: 0;
@@ -27,11 +35,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $deep-space-sparkle;
+  background-color: $ucla-blue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
