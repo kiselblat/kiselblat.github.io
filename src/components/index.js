@@ -5,6 +5,7 @@ import { Layout, CardLayout } from './Layout';
 import { Nameplate } from './Nameplate';
 import { Navigator } from './Navigator';
 import { PortfolioCard } from './PortfolioCard';
+import { Skillset } from './Skillset';
 import { Title } from './Title';
 
 export {
@@ -16,5 +17,6 @@ export {
   Nameplate,
   Navigator,
   PortfolioCard,
+  Skillset,
   Title
 };

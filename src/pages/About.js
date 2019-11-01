@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Blurb, Title } from '../components';
+import { Blurb, Skillset, Title } from '../components';
 
 import * as bio from '../bio.json';
 
@@ -9,6 +9,9 @@ class About extends Component {
       <>
         <Title subtitle="A Little Information">About</Title>
         <Blurb>{bio.blurb}</Blurb>
+        <Skillset>
+          {bio.skills.map((skill) => (<span>{`${skill}, `}</span>))}
+        </Skillset>
       </>
     )
   }
