@@ -1,7 +1,5 @@
 import React from 'react';
-// import { Layout } from '../Layout';
-import { Hero } from '../Hero';
-import { Navigator } from '../Navigator';
+import { Hero, Navigator } from '../';
 
 export const Header = props => {
   return(

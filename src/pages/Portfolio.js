@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { CardLayout } from '../components/Layout';
-import { Title } from '../components/Title';
-import { PortfolioCard } from '../components/PortfolioCard'
+import { CardLayout, PortfolioCard, Title } from '../components';
 
 import * as projects from '../projects.json';
 

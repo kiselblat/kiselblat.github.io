@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { Layout } from '../components/Layout';
-import { Title } from '../components/Title';
+import { Layout, Title } from '../components';
+
 
 class Contact extends Component {
   render() {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Title } from '../components/Title';
-import { Blurb } from '../components/Blurb';
+import { Blurb, Title } from '../components';
 
 import * as bio from '../bio.json';
 

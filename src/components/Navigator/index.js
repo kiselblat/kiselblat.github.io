@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Layout } from '../Layout'
+import { Layout } from '../'
 
 export const Navigator = props => {
   const opacity = Math.min(props.currentScrollHeight / 250 , 1)
