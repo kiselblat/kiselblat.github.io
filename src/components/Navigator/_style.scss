@@ -5,4 +5,9 @@
   .brand {
     @extend .text-info;
   }
+
+  .nav {
+    @extend .ml-auto;
+    @extend .text-right;
+  }
 }

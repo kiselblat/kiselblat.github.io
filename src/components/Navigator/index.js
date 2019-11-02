@@ -18,7 +18,7 @@ export const Navigator = props => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
-        <Nav className="ml-auto">
+        <Nav className="nav">
           <Nav.Item>
             <Nav.Link href="/">About</Nav.Link>
           </Nav.Item>
