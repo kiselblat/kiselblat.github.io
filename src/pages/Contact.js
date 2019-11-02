@@ -8,7 +8,11 @@ class Contact extends Component {
     return(
       <>
         <Title subtitle="How to Get in Touch">Contact</Title>
-        <ContactMe email={contactMe.email}></ContactMe>
+        <ContactMe
+          email={contactMe.email}
+          linkedin={contactMe.linkedin}
+          github={contactMe.github} 
+        />
       </>
     )
   }
