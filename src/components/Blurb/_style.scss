@@ -1,8 +1,17 @@
 .blurb {
+  
+  img {
+    @extend .img-fluid;
+    @extend .border;
+    @extend .border-light;
+  }
+
   p {
     @extend .lead;
     // @extend .text-dark;
 
     font-size: 1.5rem;
+    line-height: 2rem;
   }
+  
 }

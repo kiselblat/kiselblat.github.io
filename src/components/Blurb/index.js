@@ -6,7 +6,14 @@ export const Blurb = props => {
   return(
     <Layout className={`${props.className} blurb`} style={props.style}>
       <Row>
-        <Col>
+        {props.src ? 
+          <Col md={4}>
+              <img src={props.src} alt={props.alt} />
+          </Col>
+          :
+          <Col hidden />
+        }
+        <Col md>
           <p>{props.children}</p>
         </Col>
       </Row>
