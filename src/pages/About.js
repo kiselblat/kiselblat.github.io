@@ -8,9 +8,15 @@ class About extends Component {
     return(
       <>
         <Title subtitle="A Little Information">About</Title>
-        <Blurb>{bio.blurb}</Blurb>
+        <Blurb src={bio.headshot}>{bio.blurb}</Blurb>
         <Skillset>
-          {bio.skills.map((skill) => (<span>{`${skill}, `}</span>))}
+          {bio.skills.map(
+            (skill, index) => (
+              <span>
+                {index !== (bio.skills.length - 1) ? `${skill}, ` : `${skill}`}
+              </span>
+            )
+          )}
         </Skillset>
       </>
     )
