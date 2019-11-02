@@ -11,7 +11,7 @@ export const ContactMe = props => {
           <p>{props.email}</p>
         </Col>
         <Col>
-          <div className="text-center">
+          <div className="text-right">
             <a href={props.linkedin}>
               <i className="fab fa-linkedin fa-5x text-dark"></i>
             </a>
