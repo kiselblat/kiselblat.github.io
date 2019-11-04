@@ -1,4 +1,7 @@
 .blurb {
+  h3 {
+    @extend .display-4;
+  }
 
   img {
     @extend .img-fluid;
