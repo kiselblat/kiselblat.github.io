@@ -11,7 +11,7 @@ export const Blurb = props => {
               <img src={props.src} alt={props.alt} />
           </Col>
           :
-          <Col hidden />
+          <Col className="d-none" />
         }
         <Col md>
           <p>{props.children}</p>
