@@ -41,9 +41,9 @@ class App extends Component {
           {name.name}
         </Header>
         <Switch>
-          <Route exact path="/" render={ () => {return <About />} } />
-          <Route path="/portfolio" render={ () => {return <Portfolio />} } />
-          <Route path="/contact" render={ () => {return <Contact />} } />
+          <Route exact path="/#" render={ () => {return <About />} } />
+          <Route path="/#portfolio" render={ () => {return <Portfolio />} } />
+          <Route path="/#contact" render={ () => {return <Contact />} } />
           <Route render={ () => {return <NoMatch />} } />
         </Switch>
       </Router>
