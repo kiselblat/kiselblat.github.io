@@ -32,7 +32,7 @@ class App extends Component {
   
   render() {
     return(
-      <Router basename="/">
+      <Router basename="">
         <Header
           currentScrollHeight={this.state.currentScrollHeight}
           subtitle={name.title}
@@ -41,10 +41,10 @@ class App extends Component {
           {name.name}
         </Header>
         <Switch>
-          <Route exact path="/" component={ About } />
-          <Route path="/portfolio" component={ Portfolio } />
-          <Route path="/contact" component={ Contact } />
-          <Route component={ NoMatch } />
+          <Route exact path="/" render={ () => {return <About />} } />
+          <Route path="/portfolio" render={ () => {return <Portfolio />} } />
+          <Route path="/contact" render={ () => {return <Contact />} } />
+          <Route render={ () => {return <NoMatch />} } />
         </Switch>
       </Router>
     );
