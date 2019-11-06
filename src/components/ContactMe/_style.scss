@@ -1,0 +1,25 @@
+.contact-me {
+  a {
+    @extend .text-dark;
+  }
+  
+  h4 {
+    @extend .text-success;
+    font-size: 2rem;
+  }
+
+  i {
+    @extend .fab;
+    @extend .fa-5x;
+    @extend .text-dark;
+    @extend .mx-1;    
+  }
+
+  .github {
+    @extend .fa-github-square;
+  }
+
+  .linkedin {
+    @extend .fa-linkedin;
+  }
+}

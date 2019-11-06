@@ -1,0 +1,9 @@
+.nameplate {
+  h1 {
+    @extend .display-1;
+  }
+
+  p {
+    @extend .lead;
+  }
+}

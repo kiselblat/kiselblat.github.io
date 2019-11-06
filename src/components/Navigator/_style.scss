@@ -1,0 +1,13 @@
+.navigator {
+  @extend .text-light;
+  @extend .border-bottom;
+
+  .brand {
+    @extend .text-info;
+  }
+
+  .nav {
+    @extend .ml-auto;
+    @extend .text-right;
+  }
+}
